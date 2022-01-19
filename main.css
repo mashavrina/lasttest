@@ -149,12 +149,11 @@ section {
   color: rgba(204, 187, 187, 1);
 }
 
-.cp {
+footer {
   text-align: center;
-  font-size: 0.85em;
-  font-weight: lighter;
-  font-family: "Avenir";
-  color: #7e7272;
+  padding: 3px;
+  font-size: 0.8em;
+  color: rgba(204, 187, 187, 1);
 }
 
 /*
@@ -445,11 +444,5 @@ section {
     display: block;
   }
   
-  .cp {
-  text-align: center;
-  font-size: 0.85em;
-  font-weight: lighter;
-  font-family: "Avenir";
-  color: #7e7272;
-}
+
 }
