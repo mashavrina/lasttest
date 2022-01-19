@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/projects.css" />
+  </head>
+
+  <body>
+    <div class="nav-container">
+      <header>
+        <a href="index.html" class="logo">Masha Shavrina</a>
+
+        <nav>
+          <ul>
+            <li><a href="projects.html" class="new">Projects</a></li>
+            <li><a href="Images/Resume.png" class="resume">Resume</a></li>
+            <li><a href="mailto: mashavrina@gmail.com" class="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <section class="featured">
+      <div class="left">
+        <div class="inner transition 2">
+          <a href="#" class="featured-title">Flower Boutique Mobile Site</a>
+
+          <img
+            class="rewolf"
+            src="Images/Mask Group.png"
+            alt="Project Image"
+            width="550"
+            height="400"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="project">
+      <h1 class="projectoverview">Project Overview</h1>
+      <p class="overview">
+        To design a website for a starting flower boutique in Toronto, Ontario.
+        Due to the pandemic, the project was put on pause, however, the project
+        began with designing a mobile version of a site that was to be
+        redesigned for desktop.
+      </p>
+    </div>
+
+    <div class="work">
+      <h1 class="workflow">Workflow</h1>
+      <p class="wf">
+        The building of the brand began a while ago, and I was part of the team
+        from the beginning of the development of the idea. Being on the team
+        from the very beginning allowed to me to get a better understanding of
+        what the boutique’s online presence was to look like and feel like to
+        users.
+      </p>
+    </div>
+
+    <div class="rsrch">
+      <h1 class="research">Research</h1>
+      <p class="rsrchp">
+        I began with examining other flower boutiques sites and user flows. For
+        both the sake of inspiration, and seeing what worked well and what
+        didn’t from the perspective of a user.
+      </p>
+    </div>
+
+    <div class="wire">
+      <h1 class="wireframes">Wireframes</h1>
+      <p class="wrfms">
+        After discussing with the team what information was to be displayed on
+        the website, I created a LoFi prototype for the mobile website.
+      </p>
+     <img
+        class="smallwire"
+        src="Images/smol.png"
+        alt="Wireframes Image"
+        width=70%
+        height=70%
+      />
+      <img class="bigwire"
+      src="Images/Horizontal.png"
+      alt="Wireframes Image Wide"
+      width="70%"
+      height="70%"
+    </div>
+
+    <div class="proto">
+      <h1 class="prototype">Prototype</h1>
+      <p class="pro">
+        Following the wireframes, I began developing a high fidelity prototype
+        for the website. The images used we not ones finalized by the boutique
+        but served as an example of what the visuals of the site would look like
+        if it were complete.
+      </p>
+    </div>
+
+    <!--<img class="prototypes" src="Group 14.png" width="500" height="1640"
+    </div>-->
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="IMages/image 13.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="Images/image 14.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="Images/image 15.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="Images/Size Difference.png" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="Images/Premium.png" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="Images/Cart.png" style="width: 100%" />
+      </div>
+
+ <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />-->
+     
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <div class="contactm">
+      <h1> <a href="mailto: mashashavrina@yahoo.ca" class="contactme">Contact</a></h1>
+    </div>
+
+<!--
+    var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+
+-->
+
+<!--
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+
+
+  
+}
+-->
+    <script>
+var slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      
+    </script>
+
+&nbsp;&nbsp;
+
+  </body>
+
+</html>
