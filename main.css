@@ -96,8 +96,7 @@ section {
   color: #7e7272;
   letter-spacing: 0.2em;
   font-size: 0.85em;
-  text-align: left;
-  margin-left: 90px;
+  text-align: center;
   margin-top: 18px;
 }
 
@@ -105,8 +104,7 @@ section {
   color: black;
   font-weight: bold;
   font-size: 1.3em;
-  text-align: left;
-  margin-left: 90px;
+  text-align: center;
   margin-top: -15px;
   display: block;
 }
