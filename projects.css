@@ -346,6 +346,13 @@ section {
   color: rgba(204, 187, 187, 1);
 }
 
+.cp {
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: lighter;
+  font-family: "Avenir";
+  color: #7e7272;
+}
 @media only screen and (min-width: 800px) {
   header {
     display: flex;
