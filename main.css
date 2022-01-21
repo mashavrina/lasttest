@@ -96,7 +96,6 @@ section {
   color: #7e7272;
   letter-spacing: 0.2em;
   font-size: 0.85em;
-  text-align: center;
   margin-top: 18px;
 }
 
@@ -443,6 +442,4 @@ footer {
     margin-top: -15px;
     display: block;
   }
-  
-
 }

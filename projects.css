@@ -154,6 +154,12 @@ section {
   margin-right: 30px;
 }
 
+.userflow {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .wireframes {
   text-transform: uppercase;
   font-weight: normal;
@@ -226,6 +232,14 @@ section {
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.cp {
+  text-align: center;
+  font-size: 0.85em;
+  font-weight: lighter;
+  font-family: "Avenir";
+  color: #7e7272;
 }
 
 /* Next & previous buttons */
@@ -432,5 +446,16 @@ footer {
     width: 20%;
   }
 
-  
+  .contactme {
+    font-family: "Avenir";
+    font-size: 12pt;
+    font-weight: lighter;
+    color: #555555;
+    display: block;
+    text-align: center;
+  }
+
+  .contactme:hover {
+    color: rgba(204, 187, 187, 1);
+  }
 }
